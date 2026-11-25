@@ -1,0 +1,265 @@
+
+
+/* ERI AYO ENTERPRISE
+
+   Professional Website Styling
+
+*/
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+html {
+
+  scroll-behavior: smooth;
+
+}
+
+body {
+
+  font-family: Arial, sans-serif;
+
+  background: #f4f8ff;
+
+  color: #183153;
+
+  line-height: 1.7;
+
+}
+
+header {
+
+  background: #0756a5;
+
+  color: white;
+
+  padding: 20px 7%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+}
+
+header h2 {
+
+  font-size: 24px;
+
+  font-weight: bold;
+
+}
+
+nav a {
+
+  color: white;
+
+  text-decoration: none;
+
+  margin-left: 18px;
+
+  font-weight: bold;
+
+  transition: 0.3s;
+
+}
+
+nav a:hover {
+
+  color: #b9ddff;
+
+}
+
+.hero {
+
+  background: linear-gradient(
+
+    135deg,
+
+    #0756a5,
+
+    #3189df
+
+  );
+
+  color: white;
+
+  padding: 110px 20px;
+
+  text-align: center;
+
+}
+
+.hero h1 {
+
+  font-size: 45px;
+
+  margin-bottom: 20px;
+
+}
+
+.hero p {
+
+  font-size: 19px;
+
+  margin-bottom: 30px;
+
+}
+
+.btn {
+
+  display: inline-block;
+
+  background: white;
+
+  color: #0756a5;
+
+  padding: 14px 30px;
+
+  border-radius: 7px;
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+  transition: 0.3s;
+
+}
+
+.btn:hover {
+
+  background: #dceeff;
+
+  transform: translateY(-3px);
+
+}
+
+section {
+
+  padding: 70px 7%;
+
+  text-align: center;
+
+}
+
+section h2 {
+
+  color: #0756a5;
+
+  font-size: 32px;
+
+  margin-bottom: 20px;
+
+}
+
+.products {
+
+  display: grid;
+
+  grid-template-columns:
+
+    repeat(auto-fit, minmax(220px, 1fr));
+
+  gap: 25px;
+
+  margin-top: 40px;
+
+}
+
+.product {
+
+  background: white;
+
+  padding: 35px 20px;
+
+  border-radius: 12px;
+
+  box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+
+  transition: 0.3s;
+
+}
+
+.product:hover {
+
+  transform: translateY(-7px);
+
+}
+
+.product span {
+
+  font-size: 48px;
+
+}
+
+.product h3 {
+
+  color: #0756a5;
+
+  margin: 15px 0;
+
+}
+
+#contact {
+
+  background: #e5f1ff;
+
+}
+
+footer {
+
+  background: #073b70;
+
+  color: white;
+
+  padding: 30px 15px;
+
+  text-align: center;
+
+}
+
+@media (max-width: 768px) {
+
+  header {
+
+    flex-direction: column;
+
+    gap: 15px;
+
+  }
+
+  nav {
+
+    text-align: center;
+
+  }
+
+  nav a {
+
+    display: inline-block;
+
+    margin: 5px;
+
+  }
+
+  .hero h1 {
+
+    font-size: 32px;
+
+  }
+
+  section {
+
+    padding: 50px 5%;
+
+  }
+
+}
